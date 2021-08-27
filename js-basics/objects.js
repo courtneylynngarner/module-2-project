@@ -15,7 +15,13 @@
 */
 
 //CODE HERE
-
+const me = {
+  'firstName' : 'Courtney' , 
+  'state' : 'Utah',
+  'age' : 26 ,
+  
+  for(let 'firstName', )
+}
 
 
 
@@ -45,3 +51,17 @@
 */
 
 //CODE HERE
+
+function carFactory( make, model, year){
+  this.make = make,
+  this.model = model,
+  this.year = year; 
+
+  let car = {
+    'make' : 'toyota' ,
+    'model' : 'corolla',
+    'year' : 2021
+  }
+
+  } 
+

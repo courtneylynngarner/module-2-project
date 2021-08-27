@@ -11,6 +11,9 @@
 
 //CODE HERE
 
+let gitDefinition = `git uses the data base in your computer to connect to all of your files,
+and provide a way to connect them to gitHub. ` ;
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +21,8 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = `gitHub connects to git to allow users to push their work online so
+that it can be accessed by others.`
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -35,6 +39,9 @@
 
 //CODE HERE
 
+const init = {
+    'lets you initiate or begin saving a project in terminal' : 'git init',
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -43,6 +50,9 @@
 
 //CODE HERE
 
+const clone = {
+    'creates another coppy of your work in node' : 'git clone' ,
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -51,6 +61,9 @@
 
 //CODE HERE
 
+const status = {
+    'describes where your work is at in the git process' : 'git status' ,
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +71,9 @@
 */
 
 //CODE HERE
-
+const add = {
+    'adds changes in your directory as you add to it' : 'git add .' ,
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +81,9 @@
 */
 
 //CODE HERE
-
+const commit = {
+    'shows where your project is at in git' : 'git commit -m" " ' ,
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +92,6 @@
 */
 
 //CODE HERE
+const push = {
+    'pushes or sends yur work and commits from your computer to a repository' : 'git push'
+}
